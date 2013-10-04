@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="language">Language</string>
+    
+    <string-array name="locale_list">
+        <item>US</item>
+        <item>UK</item>
+        <item>CANADA</item>
+ 		<item>CANADA_FRENCH</item>
+	 	<item>ENGLISH</item>
+ 		<item>FRANCE</item>
+ 		<item>FRENCH</item>
+ 		<item>GERMAN</item>
+ 		<item>GERMANY</item>
+ 		<item>ITALIAN</item>
+ 		<item>ITALY</item>
+    </string-array>   
+
+</resources>

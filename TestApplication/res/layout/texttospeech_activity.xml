@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    
+    <EditText 
+        android:id="@+id/textinput"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="5dp"
+    	android:text="I can read what you have written using Text to Speech Technology.\nHow can I help you today?"
+    />
+    
+    <Spinner
+        android:id="@+id/languagespinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:entries="@array/locale_list"
+        android:prompt="@string/language"/>
+    
+    <Button
+        android:id="@+id/speak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Speak It" 
+        android:onClick="buttonClicked"/>
+
+</LinearLayout>
